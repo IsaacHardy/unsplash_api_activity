@@ -8,10 +8,6 @@ class App extends Component {
     super(props)
   }
 
-  componentWillMount = () => {
-    // this.props.getPhotos(this.props.search)
-  }
-
   updateSearch = (event) => {
     event.preventDefault();
     this.props.updateSearch(event.target.value);
